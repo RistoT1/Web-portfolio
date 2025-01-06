@@ -113,7 +113,9 @@ section {
 .stats div i.fa-instagram {
     font-size: 1.8em; 
 }
-
+.instagram:hover{
+    opacity: 0.7;
+}
 
 .stats>div {
     flex: 1;
