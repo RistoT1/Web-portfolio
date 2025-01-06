@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risto Toivanen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+    <header>
+        <h2>RT</h2>
+        <nav>
+            <a class="darkerText" href="https://github.com/RistoT1" target="_blank">GitHub</a>
+            <a class="darkerText" href="https://www.linkedin.com/in/risto-toivanen" target="_blank">LinkedIn</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <div class="nameContainer">
+
+                <h1>Risto Toivanen</h1>
+                <p class="darkerText">Ohjelmoin ja suunnittelen projekteja harraste mielessä.</p>
+                <p class="darkerText">I write code & plan Projects as an hobby.</p>
+            </div>
+            <div class="statsContainer">
+                <div class="imgContainer">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQH1Kkqpu5pcSQ/profile-displayphoto-shrink_200_200/B4DZQ4GS6.HYAY-/0/1736107962509?e=1741824000&v=beta&t=aoRrCV10ZY2h7kUnF-1c-LoN3AEdrTNM4vwXSTEpyjE"
+                        alt="profile-img" />
+                </div>
+                <div class="stats darkerText">
+                    <div>
+                        <div>
+
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <p class="">Savon ammattiopisto</p>
+                    </div>
+                    <div>
+                        <div>
+
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <a class="darkerText" href="https://www.instagram.com/risto_toivanenn/" target="_blank"> risto_toivanenn</a>
+                    </div>
+                    <div>
+                        <div>
+
+                            <i class="fa-solid fa-calendar"></i>
+                        </div>
+                        <p class="">ikä 17 | age 17</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="aboutMe">
+                Hei! Olen Risto, opiskelen Savon ammattiopistossa tieto ja viestintä tekniikkaa.   
+                Pidän ohjelmoinnista ja tykkään tehdä pieniä projekteja eri kielillä. Harrastan myös Jalkapalloa ja käyn aktiivisesti kuntosalilla.
+            </p>
+            
+            <p class="aboutMe">
+                Hello! I'm Risto, I study information and communication technology at Savo vocational college.   
+                I like programming and I like to do small projects with different languages. I also play Football and actively go to the gym.
+            </p>
+           
+            <div>
+                <p id="copiedMessage" class="copied-message">Copied!</p>
+                <span  class="outreach darkerText" onclick="copyEmail()">
+                    
+                    <i class="fa-solid fa-copy copy-icon" title="Copy Email"></i>
+                    <p>Sähköposti | Email</p>
+
+                   
+                </span>
+
+                
+            </div>
+        </section>
+        <section class="projectContainer">
+            <p class="darkerText headerText">Latest Projects</p>
+            <div class="projectItem">
+                <div>
+                    <p class="darkerText">Jan 6, 2025</p>
+                    <p>My personal web-portfolio</p>
+                    <div class="linkContainer"> <!--muuta linkki-->
+                        <a target="_blank" href="https://github.com/RistoT1/Web-portfolio.git" class="linkItem">
+                            <div>
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <p class="">GitHub</p>
+                        </a>                     <!--muuta linkki-->
+                        <a target="_blank" href="https://website-navbar-rt.netlify.app/" class="linkItem">
+                            <div>
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <p class="">Live</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgContainer" > <!--muuta linkki-->
+                    <a  target="_blank" href="https://website-navbar-rt.netlify.app/"   class="linkImage">
+                    <img src="public/Web-Portfolio.png" alt="Web-Portfolio" />
+                    </a>
+                </div>
+            </div>
+            <div class="projectItem">
+                <div>
+                    <p class="darkerText">Oct 20, 2024</p>
+                    <p>Website-Navbar</p>
+                    <div class="linkContainer">
+                        <a target="_blank" href="https://github.com/RistoT1/Website-Navbar" class="linkItem">
+                            <div>
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <p class="">GitHub</p>
+                        </a>
+                        <a target="_blank" href="https://website-navbar-rt.netlify.app/" class="linkItem">
+                            <div>
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <p class="">Live</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgContainer" >
+                    <a  target="_blank" href="https://website-navbar-rt.netlify.app/"   class="linkImage">
+                    <img src="public/Website-Navbar.png" alt="Website-Navbar" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>   
+</html>
